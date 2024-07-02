@@ -3,8 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="pack1.ContactTest"/>
-      <class name="pack2.OrgTest"/>
+		<class name="pack1.ContactTest"/>
+        <class name="pack2.OrgTest">
+     
+      <!-- 	<methods>
+			  <exclude name="modifyorgTest">
+			  </exclude>
+		  </methods> -->
+        </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
